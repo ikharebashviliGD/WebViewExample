@@ -1,0 +1,16 @@
+<html>
+    <script type="text/javascript">
+        function postRefXBookingConfirmed() {
+            window.webkit.messageHandlers.groupapp.postMessage("{\"type\": \"RefXBookingConfirmed\", \"pnr\": \"FIXPNR\", \"firstName\": \"ANDREA\", \"lastName\": \"JUNG\"}");
+            return false;
+        }
+        function postRefXFlowEnd() {
+            window.webkit.messageHandlers.groupapp.postMessage("{\"type\": \"RefXFlowEnd\"}");
+            return false;
+        }
+    </script>
+    <body>
+        <a href="javascript:postRefXBookingConfirmed();">Proceed to confirmation</a></br>
+        <a href="javascript:postRefXFlowEnd();">My flights</a>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "originHash" : "b9959f50d9ed3ee03c8ac1e167b8fe19cc4d21760db9b949718dfccef66c34a9",
+  "pins" : [
+    {
+      "identity" : "public-ios-xcuisdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GetEvinced/public-ios-xcuisdk",
+      "state" : {
+        "revision" : "db30ef35933c4ed6d1a3e6f2f0d7d0921be9900b",
+        "version" : "1.24.0"
+      }
+    }
+  ],
+  "version" : 3
+}
